@@ -30,7 +30,7 @@
 {
     [super viewDidLoad];
   
-   // NSLog(@" Objects %u", [[ namesArr allKeys]count]);
+    NSLog(@" Objects %u", [[ namesArr allKeys]count]);
        
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -131,13 +131,6 @@
     
 
     
-    /*
-     UIView* dimView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 460)];
-    dimView.backgroundColor = [UIColor blackColor];
-    dimView.alpha = 0.7f;
-    dimView.userInteractionEnabled = NO;
-    [self.view addSubview:dimView];
-   */
-}
+   }
 
 @end

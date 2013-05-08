@@ -111,7 +111,7 @@
         [vicinitys addObject:vicinity];
     }
     d4 = [NSDictionary dictionaryWithObjects:vicinitys forKeys:names];
-   NSLog(@" objects %@", names);
+   //NSLog(@" objects %@", names);
     
     
    // [self ConvertFromUC:names];
