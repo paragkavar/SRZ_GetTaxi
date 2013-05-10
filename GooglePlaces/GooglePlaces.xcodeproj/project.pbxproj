@@ -20,6 +20,16 @@
 		5669C110154FCA6D0092D780 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5669C10F154FCA6D0092D780 /* MapKit.framework */; };
 		5669C112154FCA770092D780 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5669C111154FCA770092D780 /* CoreLocation.framework */; };
 		56E5594A15569D4D00C1177A /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E5594915569D4D00C1177A /* MapPoint.m */; };
+		EFA278E4173CCBC300BA7D27 /* SRZ_LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA278E3173CCBC300BA7D27 /* SRZ_LoginViewController.m */; };
+		EFA278F2173CD19F00BA7D27 /* UMM_Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA278E7173CD19F00BA7D27 /* UMM_Alert.m */; };
+		EFA278F3173CD19F00BA7D27 /* UMM_AlertButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA278E9173CD19F00BA7D27 /* UMM_AlertButton.m */; };
+		EFA278F4173CD19F00BA7D27 /* UMM_AlertText.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA278EB173CD19F00BA7D27 /* UMM_AlertText.m */; };
+		EFA278F5173CD19F00BA7D27 /* UMM_AlertLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA278ED173CD19F00BA7D27 /* UMM_AlertLabel.m */; };
+		EFA278F6173CD19F00BA7D27 /* UMM_AlertScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA278EF173CD19F00BA7D27 /* UMM_AlertScroll.m */; };
+		EFA278F7173CD19F00BA7D27 /* UMM_AlertImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA278F1173CD19F00BA7D27 /* UMM_AlertImgView.m */; };
+		EFA278F9173CD2D000BA7D27 /* msg_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA278F8173CD2D000BA7D27 /* msg_bg.png */; };
+		EFA278FC173CD80000BA7D27 /* msg_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA278FA173CD80000BA7D27 /* msg_cancel.png */; };
+		EFA278FD173CD80000BA7D27 /* msg_ok_next.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA278FB173CD80000BA7D27 /* msg_ok_next.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +54,23 @@
 		5669C111154FCA770092D780 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		56E5594815569D4D00C1177A /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
 		56E5594915569D4D00C1177A /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
+		EFA278E2173CCBC300BA7D27 /* SRZ_LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRZ_LoginViewController.h; sourceTree = "<group>"; };
+		EFA278E3173CCBC300BA7D27 /* SRZ_LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRZ_LoginViewController.m; sourceTree = "<group>"; };
+		EFA278E6173CD19F00BA7D27 /* UMM_Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMM_Alert.h; sourceTree = "<group>"; };
+		EFA278E7173CD19F00BA7D27 /* UMM_Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMM_Alert.m; sourceTree = "<group>"; };
+		EFA278E8173CD19F00BA7D27 /* UMM_AlertButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMM_AlertButton.h; sourceTree = "<group>"; };
+		EFA278E9173CD19F00BA7D27 /* UMM_AlertButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMM_AlertButton.m; sourceTree = "<group>"; };
+		EFA278EA173CD19F00BA7D27 /* UMM_AlertText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMM_AlertText.h; sourceTree = "<group>"; };
+		EFA278EB173CD19F00BA7D27 /* UMM_AlertText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMM_AlertText.m; sourceTree = "<group>"; };
+		EFA278EC173CD19F00BA7D27 /* UMM_AlertLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMM_AlertLabel.h; sourceTree = "<group>"; };
+		EFA278ED173CD19F00BA7D27 /* UMM_AlertLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMM_AlertLabel.m; sourceTree = "<group>"; };
+		EFA278EE173CD19F00BA7D27 /* UMM_AlertScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMM_AlertScroll.h; sourceTree = "<group>"; };
+		EFA278EF173CD19F00BA7D27 /* UMM_AlertScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMM_AlertScroll.m; sourceTree = "<group>"; };
+		EFA278F0173CD19F00BA7D27 /* UMM_AlertImgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMM_AlertImgView.h; sourceTree = "<group>"; };
+		EFA278F1173CD19F00BA7D27 /* UMM_AlertImgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMM_AlertImgView.m; sourceTree = "<group>"; };
+		EFA278F8173CD2D000BA7D27 /* msg_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msg_bg.png; sourceTree = "<group>"; };
+		EFA278FA173CD80000BA7D27 /* msg_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msg_cancel.png; sourceTree = "<group>"; };
+		EFA278FB173CD80000BA7D27 /* msg_ok_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msg_ok_next.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +121,12 @@
 		5669C0F4154FC64F0092D780 /* GooglePlaces */ = {
 			isa = PBXGroup;
 			children = (
+				EFA278E5173CD18000BA7D27 /* AlertView */,
 				5669C0FD154FC64F0092D780 /* AppDelegate.h */,
 				5669C0FE154FC64F0092D780 /* AppDelegate.m */,
 				5669C100154FC64F0092D780 /* MainStoryboard.storyboard */,
+				EFA278E2173CCBC300BA7D27 /* SRZ_LoginViewController.h */,
+				EFA278E3173CCBC300BA7D27 /* SRZ_LoginViewController.m */,
 				34BFEAE4173A7C8100200E03 /* SRZ_TaxiCallViewController.h */,
 				34BFEAE5173A7C8100200E03 /* SRZ_TaxiCallViewController.m */,
 				5669C103154FC64F0092D780 /* ViewController.h */,
@@ -113,12 +143,34 @@
 		5669C0F5154FC64F0092D780 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EFA278F8173CD2D000BA7D27 /* msg_bg.png */,
+				EFA278FA173CD80000BA7D27 /* msg_cancel.png */,
+				EFA278FB173CD80000BA7D27 /* msg_ok_next.png */,
 				5669C0F6154FC64F0092D780 /* GooglePlaces-Info.plist */,
 				5669C0F7154FC64F0092D780 /* InfoPlist.strings */,
 				5669C0FA154FC64F0092D780 /* main.m */,
 				5669C0FC154FC64F0092D780 /* GooglePlaces-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFA278E5173CD18000BA7D27 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				EFA278E6173CD19F00BA7D27 /* UMM_Alert.h */,
+				EFA278E7173CD19F00BA7D27 /* UMM_Alert.m */,
+				EFA278E8173CD19F00BA7D27 /* UMM_AlertButton.h */,
+				EFA278E9173CD19F00BA7D27 /* UMM_AlertButton.m */,
+				EFA278EA173CD19F00BA7D27 /* UMM_AlertText.h */,
+				EFA278EB173CD19F00BA7D27 /* UMM_AlertText.m */,
+				EFA278EC173CD19F00BA7D27 /* UMM_AlertLabel.h */,
+				EFA278ED173CD19F00BA7D27 /* UMM_AlertLabel.m */,
+				EFA278EE173CD19F00BA7D27 /* UMM_AlertScroll.h */,
+				EFA278EF173CD19F00BA7D27 /* UMM_AlertScroll.m */,
+				EFA278F0173CD19F00BA7D27 /* UMM_AlertImgView.h */,
+				EFA278F1173CD19F00BA7D27 /* UMM_AlertImgView.m */,
+			);
+			name = AlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +225,9 @@
 			files = (
 				5669C0F9154FC64F0092D780 /* InfoPlist.strings in Resources */,
 				5669C102154FC64F0092D780 /* MainStoryboard.storyboard in Resources */,
+				EFA278F9173CD2D000BA7D27 /* msg_bg.png in Resources */,
+				EFA278FC173CD80000BA7D27 /* msg_cancel.png in Resources */,
+				EFA278FD173CD80000BA7D27 /* msg_ok_next.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +244,13 @@
 				56E5594A15569D4D00C1177A /* MapPoint.m in Sources */,
 				3420889617392598003A1FD4 /* DetailViewController.m in Sources */,
 				34BFEAE6173A7C8100200E03 /* SRZ_TaxiCallViewController.m in Sources */,
+				EFA278E4173CCBC300BA7D27 /* SRZ_LoginViewController.m in Sources */,
+				EFA278F2173CD19F00BA7D27 /* UMM_Alert.m in Sources */,
+				EFA278F3173CD19F00BA7D27 /* UMM_AlertButton.m in Sources */,
+				EFA278F4173CD19F00BA7D27 /* UMM_AlertText.m in Sources */,
+				EFA278F5173CD19F00BA7D27 /* UMM_AlertLabel.m in Sources */,
+				EFA278F6173CD19F00BA7D27 /* UMM_AlertScroll.m in Sources */,
+				EFA278F7173CD19F00BA7D27 /* UMM_AlertImgView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
