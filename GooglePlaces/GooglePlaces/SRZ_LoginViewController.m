@@ -132,9 +132,6 @@
     
     [all drawInView:[self view]];
     
-
-
- 
 }
 - (IBAction)LogButton:(id)sender {
     

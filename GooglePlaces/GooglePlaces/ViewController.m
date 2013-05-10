@@ -41,7 +41,7 @@
     //Set the first launch instance variable to allow the map to zoom on the user location when first launched.
     firstLaunch=YES;
     
-    [self performSelector:@selector(getCenterCoordinates) withObject:nil afterDelay:2.0f];
+    [self performSelector:@selector(getCenterCoordinates) withObject:nil afterDelay:3.0f];
        
 }
 -(void)getCenterCoordinates
