@@ -13,6 +13,7 @@
 {
      UMM_Alert *all;
     UMM_AlertText *textfield;
+    CGFloat animatedDistance;
 }
 @property (weak, nonatomic) IBOutlet UITextField *emailTF;
 @property (weak, nonatomic) IBOutlet UITextField *passTF;

@@ -22,6 +22,9 @@
     CLLocationCoordinate2D currentCentre;
     int currenDist;
     BOOL firstLaunch;
+    UIActivityIndicatorView *aiv;
+    UIView * viewForAiv;
+    
 }
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *OwnAdress;
 

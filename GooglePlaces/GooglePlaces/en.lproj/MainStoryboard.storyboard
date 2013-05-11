@@ -173,12 +173,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="6be-lV-mil" id="Lr4-q2-Yet"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" minimumFontSize="17" id="c9D-xa-hKw">
                                 <rect key="frame" x="57" y="278" width="206" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="6be-lV-mil" id="LZ6-AT-i1H"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8dp-Sc-eyx">
                                 <rect key="frame" x="57" y="249" width="96" height="21"/>
@@ -291,43 +297,6 @@
             <point key="canvasLocation" x="-170" y="-72"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="DetailViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="backButton:"/>
-            </relationships>
-        </class>
-        <class className="SRZ_LoginViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SRZ_LoginViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="LogButton:"/>
-                <relationship kind="action" name="SignUpButton:"/>
-                <relationship kind="outlet" name="emailTF" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="loginButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="passTF" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="SRZ_TaxiCallViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SRZ_TaxiCallViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="BackButton:"/>
-                <relationship kind="action" name="CallTaxiButton:"/>
-                <relationship kind="outlet" name="AdressTF" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="NameTF" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="GetTaxiButton:"/>
-                <relationship kind="action" name="ListButton:"/>
-                <relationship kind="action" name="toolBarButtonPress:"/>
-                <relationship kind="outlet" name="OwnAdress" candidateClass="UIBarButtonItem"/>
-                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

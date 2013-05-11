@@ -17,6 +17,10 @@
 @implementation ViewController
 @synthesize mapView,names, vicinitys, d4,OwnAdress;
 
+
+
+
+
 - (void)viewDidLoad
 {
      [super viewDidLoad];
@@ -41,15 +45,32 @@
     //Set the first launch instance variable to allow the map to zoom on the user location when first launched.
     firstLaunch=YES;
     
-    [self performSelector:@selector(getCenterCoordinates) withObject:nil afterDelay:3.0f];
+    
+    //Add UIActivityIndefView
+    viewForAiv = [[UIView alloc]initWithFrame:CGRectMake(150, 423, 30, 30)];
+    [self.view addSubview:viewForAiv];
+    aiv = [[UIActivityIndicatorView alloc] init];
+    CGPoint cp = CGPointMake(15, 15);
+    aiv.center = cp;
+    [viewForAiv addSubview:aiv];
+    [aiv startAnimating];
+
+    
+    [self performSelector:@selector(getCenterCoordinates) withObject:nil afterDelay:5.0f];
        
 }
 -(void)getCenterCoordinates
 {
+        
     NSLog(@" center lat %f  long %f", currentCentre.latitude,currentCentre.longitude);
     CLLocation* coord = [[CLLocation alloc]initWithLatitude:currentCentre.latitude longitude:currentCentre.longitude];
     NSLog(@" cord %@", coord);
+    
+    [aiv stopAnimating];
+    [viewForAiv removeFromSuperview];
+
     [self getAddressFromLocation:coord];
+    
 }
 -(void)getAddressFromLocation:(CLLocation *)location {
     __block NSString *address;
