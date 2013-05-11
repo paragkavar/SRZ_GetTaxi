@@ -220,6 +220,14 @@ static const CGFloat LANDSCAPE_KEYBOARD_HEIGHT = 162;
     
     if ([emailTF.text isEqualToString:@""]||[passTF.text isEqualToString:@""] ) {
         NSLog(@" Login abo pass pustyj");
+        
+        UIAlertView *simpleAlert = [[UIAlertView alloc] initWithTitle:@"Login Error"
+                                                              message:@"Login or Password fields are empty"
+                                                             delegate:self
+                                                    cancelButtonTitle:@"OK"
+                                                    otherButtonTitles:nil];
+        [simpleAlert show];
+        
     }else{
         
     [self performSegueWithIdentifier:@"tomapview" sender:self];
