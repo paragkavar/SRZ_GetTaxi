@@ -20,6 +20,7 @@
 		5669C110154FCA6D0092D780 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5669C10F154FCA6D0092D780 /* MapKit.framework */; };
 		5669C112154FCA770092D780 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5669C111154FCA770092D780 /* CoreLocation.framework */; };
 		56E5594A15569D4D00C1177A /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E5594915569D4D00C1177A /* MapPoint.m */; };
+		EF956BE917403602004925EB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF956BE817403602004925EB /* MessageUI.framework */; };
 		EFA278E4173CCBC300BA7D27 /* SRZ_LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA278E3173CCBC300BA7D27 /* SRZ_LoginViewController.m */; };
 		EFA278F2173CD19F00BA7D27 /* UMM_Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA278E7173CD19F00BA7D27 /* UMM_Alert.m */; };
 		EFA278F3173CD19F00BA7D27 /* UMM_AlertButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA278E9173CD19F00BA7D27 /* UMM_AlertButton.m */; };
@@ -54,6 +55,7 @@
 		5669C111154FCA770092D780 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		56E5594815569D4D00C1177A /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
 		56E5594915569D4D00C1177A /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
+		EF956BE817403602004925EB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		EFA278E2173CCBC300BA7D27 /* SRZ_LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRZ_LoginViewController.h; sourceTree = "<group>"; };
 		EFA278E3173CCBC300BA7D27 /* SRZ_LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRZ_LoginViewController.m; sourceTree = "<group>"; };
 		EFA278E6173CD19F00BA7D27 /* UMM_Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMM_Alert.h; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF956BE917403602004925EB /* MessageUI.framework in Frameworks */,
 				5669C112154FCA770092D780 /* CoreLocation.framework in Frameworks */,
 				5669C110154FCA6D0092D780 /* MapKit.framework in Frameworks */,
 				5669C0EF154FC64F0092D780 /* UIKit.framework in Frameworks */,
@@ -92,6 +95,7 @@
 		5669C0DF154FC64F0092D780 = {
 			isa = PBXGroup;
 			children = (
+				EF956BE817403602004925EB /* MessageUI.framework */,
 				5669C111154FCA770092D780 /* CoreLocation.framework */,
 				5669C10F154FCA6D0092D780 /* MapKit.framework */,
 				5669C0F4154FC64F0092D780 /* GooglePlaces */,

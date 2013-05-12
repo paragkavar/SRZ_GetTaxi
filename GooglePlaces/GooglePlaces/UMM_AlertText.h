@@ -20,5 +20,5 @@
 
 -(void)drawInView:(UIView *)view;
 -(void)showkb;
-
+-(void)hidekb;
 @end

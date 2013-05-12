@@ -210,16 +210,32 @@ static const CGFloat LANDSCAPE_KEYBOARD_HEIGHT = 162;
     [all drawInView:[self view]];
     
 }
+-(void)SignUp:(id)sender{
+
+    if ([textfield.text isEqualToString:@""]) {
+        NSLog(@" email text field is empty");
+    }else{
+        NSLog(@"your credentials are sent to your mailbox");
+    [[[sender superview] superview] removeFromSuperview];
+    [dimView removeFromSuperview];
+    }
+}
+-(void)Cancel:(id)sender{
+    [[[sender superview] superview] removeFromSuperview];
+    [dimView removeFromSuperview];
+
+}
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [emailTF resignFirstResponder];
     [passTF resignFirstResponder];
+    
 }
 - (IBAction)LogButton:(id)sender {
     
     
     if ([emailTF.text isEqualToString:@""]||[passTF.text isEqualToString:@""] ) {
-        NSLog(@" Login abo pass pustyj");
+      
         
         UIAlertView *simpleAlert = [[UIAlertView alloc] initWithTitle:@"Login Error"
                                                               message:@"Login or Password fields are empty"

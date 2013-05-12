@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "UMM_Alert.h"
-
-@interface SRZ_LoginViewController : UIViewController
+#import <MessageUI/MessageUI.h>
+#import <MessageUI/MFMailComposeViewController.h>
+@interface SRZ_LoginViewController : UIViewController <MFMailComposeViewControllerDelegate>
 {
      UMM_Alert *all;
     UMM_AlertText *textfield;

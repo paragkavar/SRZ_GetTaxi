@@ -56,5 +56,8 @@
 {
     [textView becomeFirstResponder];
 }
-
+-(void)hidekb
+{
+    [textView resignFirstResponder];
+}
 @end
